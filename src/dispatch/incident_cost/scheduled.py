@@ -22,7 +22,7 @@ from .service import (
 log = logging.getLogger(__name__)
 
 
-@scheduler.add(every(5).minutes, name="calculate-incidents-response-cost")
+@scheduler.add(every(1).hour, name="calculate-incidents-response-cost")
 @scheduled_project_task
 def calculate_incidents_response_cost(db_session: SessionLocal, project: Project):
     """Calculates and saves the response cost for all incidents."""
