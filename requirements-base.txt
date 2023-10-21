@@ -470,7 +470,7 @@ uvicorn==0.22.0
     # via -r requirements-base.in
 uvloop==0.17.0
     # via -r requirements-base.in
-validators==0.18.2
+validators==0.21.0
     # via -r requirements-base.in
 wasabi==1.1.1
     # via
