@@ -8,7 +8,7 @@ aiocache==0.12.1
     # via -r requirements-base.in
 aiofiles==23.1.0
     # via -r requirements-base.in
-aiohttp==3.8.4
+aiohttp==3.8.5
     # via
     #   -r requirements-base.in
     #   openai
@@ -49,7 +49,7 @@ catalogue==2.0.8
     #   spacy
     #   srsly
     #   thinc
-certifi==2022.12.7
+certifi==2023.7.22
     # via
     #   httpcore
     #   httpx
@@ -75,7 +75,7 @@ colorama==0.4.6
     # via schemathesis
 confection==0.0.4
     # via thinc
-cryptography==39.0.2
+cryptography==41.0.5
     # via
     #   -r requirements-base.in
     #   oauthlib
@@ -284,7 +284,7 @@ pyasn1-modules==0.2.8
     #   oauth2client
 pycparser==2.21
     # via cffi
-pydantic==1.10.7
+pydantic==1.10.13
     # via
     #   blockkit
     #   confection
@@ -421,7 +421,7 @@ srsly==2.4.6
     #   confection
     #   spacy
     #   thinc
-starlette==0.26.1
+starlette==0.27.0
     # via
     #   fastapi
     #   schemathesis
@@ -461,7 +461,7 @@ tzdata==2023.3
     # via pandas
 uritemplate==4.1.1
     # via google-api-python-client
-urllib3==1.26.15
+urllib3==1.26.18
     # via
     #   pdpyras
     #   requests
@@ -470,13 +470,13 @@ uvicorn==0.22.0
     # via -r requirements-base.in
 uvloop==0.17.0
     # via -r requirements-base.in
-validators==0.18.2
+validators==0.21.0
     # via -r requirements-base.in
 wasabi==1.1.1
     # via
     #   spacy
     #   thinc
-werkzeug==2.2.3
+werkzeug==3.0.1
     # via schemathesis
 wrapt==1.15.0
     # via deprecated
@@ -487,3 +487,4 @@ yarl==1.8.2
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
