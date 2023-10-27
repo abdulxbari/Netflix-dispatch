@@ -75,7 +75,7 @@ colorama==0.4.6
     # via schemathesis
 confection==0.0.4
     # via thinc
-cryptography==39.0.2
+cryptography==41.0.5
     # via
     #   -r requirements-base.in
     #   oauthlib
@@ -476,7 +476,7 @@ wasabi==1.1.1
     # via
     #   spacy
     #   thinc
-werkzeug==2.2.3
+werkzeug==3.0.1
     # via schemathesis
 wrapt==1.15.0
     # via deprecated
