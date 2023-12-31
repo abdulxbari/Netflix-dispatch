@@ -32,7 +32,7 @@
     "roboto-fontface": "*",
     "sortablejs": "^1.15.0",
     "vee-validate": "^3.4.5",
-    "vue": "^2.6.12",
+    "vue": "^3.0.0",
     "vue-apexcharts": "^1.6.1",
     "vue-clipboard2": "^0.3.1",
     "vue-markdown": "^2.2.4",
