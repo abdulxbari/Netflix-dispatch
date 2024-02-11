@@ -104,7 +104,7 @@ deprecated==1.2.13
     #   limits
 deprecation==2.1.0
     # via pdpyras
-dnspython==2.3.0
+dnspython==2.6.0rc1
     # via email-validator
 duo-client==5.0.1
     # via -r requirements-base.in
