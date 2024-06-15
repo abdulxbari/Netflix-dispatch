@@ -12,7 +12,7 @@ attrs==22.1.0
     # via -r requirements-dev.in
 backcall==0.2.0
     # via ipython
-black==23.3.0
+black==24.3.0
     # via -r requirements-dev.in
 cfgv==3.3.1
     # via pre-commit
@@ -80,7 +80,7 @@ ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.2
     # via stack-data
-pygments==2.14.0
+pygments==2.15.0
     # via ipython
 pytest==7.3.2
     # via -r requirements-dev.in
