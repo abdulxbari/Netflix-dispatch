@@ -421,7 +421,7 @@ srsly==2.4.6
     #   confection
     #   spacy
     #   thinc
-starlette==0.26.1
+starlette==0.40.0
     # via
     #   fastapi
     #   schemathesis
