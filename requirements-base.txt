@@ -8,7 +8,7 @@ aiocache==0.12.1
     # via -r requirements-base.in
 aiofiles==23.1.0
     # via -r requirements-base.in
-aiohttp==3.8.4
+aiohttp==3.13.3
     # via
     #   -r requirements-base.in
     #   openai
@@ -461,7 +461,7 @@ tzdata==2023.3
     # via pandas
 uritemplate==4.1.1
     # via google-api-python-client
-urllib3==1.26.15
+urllib3==2.6.3
     # via
     #   pdpyras
     #   requests
@@ -476,7 +476,7 @@ wasabi==1.1.1
     # via
     #   spacy
     #   thinc
-werkzeug==2.2.3
+werkzeug==3.1.5
     # via schemathesis
 wrapt==1.15.0
     # via deprecated
