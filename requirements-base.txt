@@ -265,7 +265,7 @@ preshed==3.0.8
     # via
     #   spacy
     #   thinc
-protobuf==4.23.3
+protobuf==6.33.5
     # via
     #   -r requirements-base.in
     #   google-api-core
@@ -314,7 +314,7 @@ python-dateutil==2.8.2
     #   pandas
 python-jose==3.3.0
     # via -r requirements-base.in
-python-multipart==0.0.6
+python-multipart==0.0.22
     # via -r requirements-base.in
 python-slugify==8.0.1
     # via -r requirements-base.in
